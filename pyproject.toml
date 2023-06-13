@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "scrape-twitter-fellowship"
+version = "0.1.0"
+description = "Scrape Twitter followers and following via GraphQL API."
+authors = ["Social Virus <127993470+social-virus@users.noreply.github.com>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "scrape_twitter_fellowship"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+snscrape = "^0.6.2.20230320"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
